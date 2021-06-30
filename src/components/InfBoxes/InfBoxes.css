@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.indBoxesContainer {
+  background-color: rgb(200, 198, 167);
+  display: flex;
+  height: 60vw;
+  width: 80vw;
+  flex-direction: column;
+  padding: 2vw;
+}
+.foodContainer {
+  margin-bottom: 0.9vw;
+  background-color: #ffeeda;
+  display: flex;
+  flex-direction: column;
+  height: 20vw;
+}
+.navBar {
+  background-color: #056367;
+  width: 90%;
+  height: 8vw;
+  /*flex*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.navBar p {
+  text-align: center;
+  text-decoration: none;
+  padding: 20.28px;
+  font-size: 25px;
+  font-family: "Barlow", sans-serif;
+  color: rgb(235, 240, 232);
+  letter-spacing: 0;
+  line-height: 28px;
+}

@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.asiderContainer {
+  background-color: rgb(200, 198, 167);
+  display: flex;
+  height: 60vw;
+  width: 20vw;
+  flex-direction: column;
+  padding: 2vw;
+}
+.imageAsider {
+  width: 20vw;
+  height: 32%;
+  margin-bottom: 10px;
+}
